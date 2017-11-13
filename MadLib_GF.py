@@ -1,3 +1,4 @@
+import time 
 ### MAD LIBS ###
 ### Source: https://i.pinimg.com/736x/79/70/e6/7970e63a364e7f4d70c7b318b9cc9d6d--mad-libs-game-funny-mad-libs.jpg
 
@@ -30,7 +31,7 @@ adj3 = input()
 print ("Give me a part of the body")
 partofthebody1 = input()
 print ("Give me a letter of the alphabet")
-leterofthealphabet1 = input()
+letterofthealphabet1 = input()
 print ("Give me a celebrity")
 celebrity1 = input()
 print ("Give me a plural noun")
@@ -43,3 +44,4 @@ print ("First, you could ask for recommendations from your friends and " + plura
 print ("Just don't ask aunt " + personinroomfemale1 + " - she only reads " + adj2+ " books with" + articleofclothing1 + "-ripping goddeses on the cover."   )
 print ("If your friends and family are no help, try checking out the " + noun2 + "Review in The " + city1 + "Times")
 print ("If the " + pluralnoun2 + " featured there are too" + adj3 + " for your taste try something a little more low " + partofthebody1 + " like " + letterofthealphabet1 + ": The " + celebrity1)
+time.sleep(500)
